@@ -1,0 +1,18 @@
+@import url('./assets/css/nav.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sz-green: #004D29;
+  --sz-beige: #F1EFE7;
+
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--sz-beige) !important;
+}
