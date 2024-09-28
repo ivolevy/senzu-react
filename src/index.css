@@ -1,4 +1,4 @@
-@import url('./assets/css/nav.css');
+@import url('./assets/css/header.css');
 
 @tailwind base;
 @tailwind components;
@@ -7,6 +7,7 @@
 :root {
   --sz-green: #004D29;
   --sz-beige: #F1EFE7;
+  --sz-text: #F5F4F4;
 
   line-height: 1.5;
   font-synthesis: none;

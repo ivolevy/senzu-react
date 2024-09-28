@@ -1,10 +1,10 @@
 import './index.css';
-import { CustomNav } from './components/Nav'
+import { Header } from './components/Header'
 
 function App() {
   return (
     <>
-    <CustomNav />
+    <Header />
     </>
   )
 }
