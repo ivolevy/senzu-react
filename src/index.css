@@ -4,13 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
+/* src/index.css o tu archivo de estilos */
+@font-face {
+  font-family: 'TAN Nimbus';
+  src: url('./assets/fonts/tan-nimbus-TAN_Nimbus.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --sz-green: #004D29;
   --sz-beige: #F1EFE7;
   --sz-text: #F5F4F4;
 
   line-height: 1.5;
-  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
