@@ -1,12 +1,10 @@
-import { CustomNav } from '../assets/comps/Nav'
-import { HeaderComp } from '../assets/comps/HeaderComp'
+import { CustomNav } from "../assets/comps/Nav"
 
 export const Header = () => {
   return (
    <>
    <div className="header">
     <CustomNav />
-    <HeaderComp />
    </div>
    </>
   )

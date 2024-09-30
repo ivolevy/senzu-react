@@ -17,10 +17,14 @@
   --sz-beige: #F1EFE7;
   --sz-text: #F5F4F4;
 
-  line-height: 1.5;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
   background-color: var(--sz-beige) !important;
+}
+
+*{
+  padding-left: 10px;
+  padding-right: 10px;
 }

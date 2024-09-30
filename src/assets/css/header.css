@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.header{
+  height: 100vh;
+}
+
 .font-tanNimbus{
   font-family: 'tan-Nimbus' !important;
 }
@@ -12,41 +16,19 @@
 }
 
 .nav{
-  background-color: var(--sz-green) !important;
-  width: 90% !important;
   margin: 0 auto;
   border-radius: 15px;
   height: 85px;
   margin-top: 1rem;
   margin-bottom: 1rem;
   position: sticky;
-  top: 0; 
-  color: var(--sz-text) !important;
+}
+
+.logo{
+  width: 9rem;
 }
 
 .button{
   color: var(--sz-green) !important;
   background-color: var(--sz-text) !important;
-}
-
-.headerComp {
-  width: 100%;
-  height: 80vh;
-  display: grid;
-  place-items: center; /* Centra en ambos ejes */
-  text-align: center;
-  color: var(--sz-green);
-}
-
-.title{
-  font-family: 'tanNimbus' !important;
-  font-size: 3rem;
-  font-weight: bolder;
-}
-
-.button{
-  padding: 15px 20px 15px 20px;
-  border-radius: 15px;
-  background-color: var(--sz-green) !important;
-  color: var(--sz-text) !important;
 }
