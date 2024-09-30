@@ -28,7 +28,17 @@
   width: 9rem;
 }
 
+nav li{
+  font-size: 15px;
+}
+
 .button{
   color: var(--sz-green) !important;
   background-color: var(--sz-text) !important;
+  margin-right: 20px;
+}
+
+.modal-box{
+  border: 1px solid var(--sz-green);
+  color: var(--sz-green);
 }

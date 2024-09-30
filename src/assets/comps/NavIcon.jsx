@@ -12,7 +12,6 @@ const AnimatedMenuIcon = () => {
       onClick={toggleMenu}
       className="flex flex-col items-center justify-center space-y-1 cursor-pointer"
     >
-      {/* Líneas del menú */}
       <div
         className={`h-1 w-6 bg-szText transition-transform duration-300 ease-in-out ${
           isOpen ? 'transform translate-y-2 rotate-45' : ''

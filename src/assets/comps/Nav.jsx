@@ -6,16 +6,15 @@ const DaisyNav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setMenuOpen(!menuOpen); // Alternar entre abierto/cerrado
+    setMenuOpen(!menuOpen);
   };
 
   return (
-    <div className="navbar nav bg-szGreen text-szText">
+    <nav className="navbar nav bg-szGreen text-szText">
       <div className="navbar-start">
         <div className="dropdown">
-          {/* Al hacer clic, el menú se abre o se cierra */}
           <div tabIndex={0} role="button" aria-label="Toggle Menu" className="lg:hidden" onClick={toggleMenu}>
-            <AnimatedMenuIcon isOpen={menuOpen} /> {/* Pasamos el estado al ícono */}
+            <AnimatedMenuIcon isOpen={menuOpen} />
           </div>
 
           {/* Dropdown menu controlado */}
@@ -24,15 +23,10 @@ const DaisyNav = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
-              <li><a href="#">Item 1</a></li>
-              <li>
-                <a href="#">Parent</a>
-                <ul className="p-2">
-                  <li><a href="#">Submenu 1</a></li>
-                  <li><a href="#">Submenu 2</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Item 3</a></li>
+              <li><a href="#">Nosotros</a></li>
+              <li><a href="#">Que hacemos</a></li>              
+              <li><a href="#">Creaciones</a></li>
+              <li><a href="#">Hablemos</a></li>
             </ul>
           )}
         </div>
@@ -41,24 +35,27 @@ const DaisyNav = () => {
 
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li><a href="#">Item 1</a></li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="p-2">
-                <li><a href="#">Submenu 1</a></li>
-                <li><a href="#">Submenu 2</a></li>
-              </ul>
-            </details>
-          </li>
-          <li><a href="#">Item 3</a></li>
+              <li><a href="#">Nosotros</a></li>
+              <li><a href="#">Que hacemos</a></li>              
+              <li><a href="#">Creaciones</a></li>
+              <li><a href="#">Hablemos</a></li>
         </ul>
       </div>
 
       <div className="navbar-end">
-        <a href="#" className="btn">Button</a>
+        {/* You can open the modal using document.getElementById('ID').showModal() method */}
+        <button className="btn button" onClick={()=>document.getElementById('my_modal_3').showModal()}>Hablemos!</button>
+        <dialog id="my_modal_3" className="modal">
+          <div className="modal-box !bg-szBeige">
+            <form method="dialog">
+              {/* if there is a button in form, it will close the modal */}
+              <button className="btn-sm btn-circle btn-ghost absolute right-2 top-2 text-2xl">✕</button>
+            </form>
+            <h3 className="font-bold text-lg">Form de contacto</h3>
+          </div>
+        </dialog>
       </div>
-    </div>
+    </nav>
   );
 };
 
