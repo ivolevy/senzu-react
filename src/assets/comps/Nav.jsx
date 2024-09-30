@@ -21,7 +21,7 @@ const DaisyNav = () => {
           {menuOpen && (
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-szBeige text-szGreen rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li><a href="#">Nosotros</a></li>
               <li><a href="#">Que hacemos</a></li>              
