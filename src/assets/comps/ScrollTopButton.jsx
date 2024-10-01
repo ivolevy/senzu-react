@@ -28,10 +28,10 @@ const ScrollToTopButton = () => {
     isVisible && (
       <button
         onClick={scrollToTop}
-        className="fixed bottom-6 right-6 bg-red-500 border-black text-white p-3 rounded-full shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105"
+        className="fixed bottom-6 right-6 bg-szGreen border border-szBeige text-white p-1 rounded-full shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105"
         aria-label="Volver arriba"
       >
-        <MdKeyboardDoubleArrowUp size={24} />
+        <MdKeyboardDoubleArrowUp size={40} />
       </button>
     )
   );
