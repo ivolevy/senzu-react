@@ -1,19 +1,19 @@
 export const Hero = () => {
   return (
     <>
-       <div className="hero flex justify-center items-center h-screen text-szGreen">
-          <div className="hero-content text-center -mt-40">
-              <div className="max-w-full">
-              <h1 className="text-6xl font-bold font-tanNimbus">Tu futuro digital empieza ahora</h1>
-              <p className="py-6">
-                  En Senzu solo diseñamos. Revolucionamos. <br />
-                  Creamos experiencias digitales que no solo cuentan tu historia,
-                  sino que la hacen inolvidable. <br />
-                  Tu marca, nuestra visión: un futuro sin límites.
+      <div className="hero">
+        <div className="hero min-h-screen">
+          <div className="hero-content text-center">
+            <div className="max-w-md">
+              <h1 className="text-8xl font-bold font-tanNimbus text-szGreen">Hello there</h1>
+              <p className="py-6 font-quicksand text-szGreen">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                quasi. In deleniti eaque aut repudiandae et a id nisi.
               </p>
-              <button className="btn button">Pongámonos a trabajar</button>
-              </div>
+              <button className="btn button font-quicksand">Get Started</button>
+            </div>
           </div>
+        </div>
       </div>
     </>
   )

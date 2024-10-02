@@ -1,14 +1,21 @@
 @import url('./assets/css/header.css');
+@import url('./assets/css/abouts.css');
 @import url('./assets/css/footer.css');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* src/index.css o tu archivo de estilos */
 @font-face {
   font-family: 'TAN Nimbus';
   src: url('./assets/fonts/tan-nimbus-TAN_Nimbus.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('/src/assets/fonts/Quicksand-Regular.ttf') format('truetype'); /* Ajusta la ruta si es necesario */
   font-weight: normal;
   font-style: normal;
 }

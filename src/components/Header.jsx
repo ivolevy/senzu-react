@@ -4,8 +4,8 @@ import { Hero } from "../assets/comps/header/Hero"
 export const Header = () => {
   return (
    <>
-   <div className="header">
     <CustomNav />
+   <div className="header bg-red-500" id="header">
     <Hero />
    </div>
    </>

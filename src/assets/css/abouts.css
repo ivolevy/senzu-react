@@ -1,0 +1,23 @@
+.steps .step-primary + .step-primary:before,
+.steps .step-primary:after {
+  --tw-bg-opacity: 1;
+  background-color: theme('colors.szGreen') !important; /* Cambiar a szGreen */
+  --tw-text-opacity: 1;
+  color: theme('colors.szText') !important;
+}
+
+.steps .step-primary + .step-primary:before,
+.steps .step-primary:after {
+  --tw-bg-opacity: 1;
+  background-color: theme('colors.szGreen') !important; /* Cambiar a szGreen */
+  --tw-text-opacity: 1;
+  color: theme('colors.szText') !important;
+}
+
+.steps .step-primary + .step-primary:before,
+.steps .step-primary:after {
+  --tw-bg-opacity: 1;
+  background-color: theme('colors.szGreen') !important; /* Cambiar a szGreen */
+  --tw-text-opacity: 1;
+  color: theme('colors.szText') !important;
+}

@@ -19,9 +19,10 @@
   margin: 0 auto;
   border-radius: 15px;
   height: 85px;
-  margin-top: 1rem;
   margin-bottom: 1rem;
-  position: sticky;
+  z-index:  100000000000;
+  position: sticky !important;
+  top: 1rem;
 }
 
 .logo{
