@@ -11,6 +11,7 @@ export default {
         szGreen: '#004D29',
         szBeige: '#F1EFE7',
         szText: '#F5F4F4',
+        szAlt: "#D2691E",
       },
       images: {
         domains: ['images.unsplash.com'],

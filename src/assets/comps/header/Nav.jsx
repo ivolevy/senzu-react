@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from '../../images/logos/nav-logo.png';
+import logo from '../../images/logos/sz-bg.png';
 import AnimatedMenuIcon from './NavIcon';
 
 const DaisyNav = () => {
