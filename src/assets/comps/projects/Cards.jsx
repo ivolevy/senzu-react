@@ -7,9 +7,9 @@ export const BouncyCardsFeatures = () => {
     return (
       <section className="mx-auto max-w-7xl px-4 py-12">
         <div className="mb-8 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end md:px-8">
-          <h2 className="title">
+          <h2 className="title !text-szBeige">
             Algunas de nuestras <br />
-            <span className="text-szBeige bg-szGreen">creaciones</span>
+            <span className="text-szDarkGreen bg-szBeige">creaciones</span>
           </h2>
           <motion.button
             whileHover={{ scale: 1.05 }}

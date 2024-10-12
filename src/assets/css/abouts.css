@@ -8,3 +8,17 @@
   height: auto;
   margin: 0 auto;
 }
+
+.left{
+  width: 50%;
+  height: auto;
+}
+
+.right{
+  width: 50%;
+  height: auto;
+}
+
+.hoverEffect:hover{
+  color: gold;
+}
