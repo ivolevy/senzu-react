@@ -29,12 +29,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: var(--sz-beige) !important;
+  background-color: rgb(7, 39, 7) !important;
 }
 
 *{
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.title{
+  color: var(--sz-green);
+  font-family: 'TAN nimbus' !important;
+  font-weight: bolder;
+  font-size: 3.4rem;
+  line-height: 1.2;
 }
 
 html{

@@ -7,8 +7,8 @@ export const BouncyCardsFeatures = () => {
     return (
       <section className="mx-auto max-w-7xl px-4 py-12">
         <div className="mb-8 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end md:px-8">
-          <h2 className="max-w-lg text-4xl font-bold md:text-5xl font-tanNimbus text-szGreen">
-            Algunas de nuestras
+          <h2 className="title">
+            Algunas de nuestras <br />
             <span className="text-szBeige bg-szGreen">creaciones</span>
           </h2>
           <motion.button
@@ -16,7 +16,7 @@ export const BouncyCardsFeatures = () => {
             whileTap={{ scale: 0.95 }}
             className="btn button"
           >
-            Saber mas        
+            Trabajemos juntos
           </motion.button>
         </div>
         <div className="mb-4 grid grid-cols-12 gap-4">

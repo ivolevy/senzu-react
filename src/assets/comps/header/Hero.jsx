@@ -5,8 +5,8 @@ export const Hero = () => {
         <div className="hero min-h-screen">
           <div className="hero-content text-center">
             <div className="max-w-md">
-              <h1 className="text-8xl font-bold font-tanNimbus text-szGreen">Hello there</h1>
-              <p className="py-6 font-quicksand text-szGreen">
+              <h1 className="text-8xl font-bold font-tanNimbus text-szBeige">Hello there</h1>
+              <p className="py-6 font-quicksand text-szText">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                 quasi. In deleniti eaque aut repudiandae et a id nisi.
               </p>

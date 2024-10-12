@@ -5,9 +5,24 @@ export const Header = () => {
   return (
    <>
     <CustomNav />
-   <div className="header bg-red-500" id="header">
+   <div className="header" id="header">
     <Hero />
    </div>
    </>
   )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
