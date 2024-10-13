@@ -1,21 +1,53 @@
 export const Hero = () => {
   return (
-    <>
-      <div className="hero">
-        <div className="hero min-h-screen">
-          <div className="hero-content text-center">
-            <div className="max-w-md">
-              <h1 className="text-8xl font-bold font-tanNimbus text-szBeige">Hello there</h1>
-              <p className="py-6 font-quicksand text-szText">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                quasi. In deleniti eaque aut repudiandae et a id nisi.
-              </p>
-              <button className="btn button font-quicksand">Get Started</button>
-            </div>
-          </div>
-        </div>
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="text-center font-quicksand">
+        <h1 className="text-yellow-300">Agencia de diseño y desarrollo web</h1>
+        <p className="title2 font-tanNimbus text-szBeige">Tu proyecto y nuestra creatividad:
+          <br />
+          <span className="">juntos, lo extraordinario es posible</span>
+        </p>
+        <p className="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.   <br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
+        </p>
+        <br />
+        <a href="#" target="_blank" rel="noopener noreferrer" className="bg-szBeige p-4 rounded-lg">Empecemos a crear</a>
       </div>
-    </>
-  )
-}
+    </div>
+  );
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

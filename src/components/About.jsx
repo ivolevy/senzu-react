@@ -9,7 +9,7 @@ export const About = () => {
         </h2>
         <div className="container flex flex-col md:flex-row justify-center items-center">
           <div className="left w-full md:w-1/2">
-            <p className="text-szText text-lg">
+            <p className="text-yellow-300 text-lg">
               Una agencia emergente formada por un equipo de profesionales altamente capacitados que comparten una pasión por el desarrollo digital. Nos especializamos en crear soluciones personalizadas para cada cliente, enfocándonos en plasmar su identidad y valores en cada proyecto. Nuestro objetivo es no solo construir una presencia digital atractiva, sino también estratégica y funcional, que ayude a impulsar el crecimiento y éxito de tu negocio. Nos comprometemos a trabajar de la mano contigo, desde la concepción de la idea hasta la ejecución, para asegurarnos de que cada detalle esté alineado con tus metas y necesidades.
             </p>
           </div>

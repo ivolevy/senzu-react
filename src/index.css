@@ -46,6 +46,12 @@
   line-height: 1.2;
 }
 
+.title2{
+  font-weight: bolder;
+  font-size: 3.4rem;
+  line-height: 1.2;
+}
+
 html{
   scroll-behavior: smooth;
 }
